@@ -1,0 +1,24 @@
+.container-toolbar{
+    width: 100%;
+}
+.toolbar-text {
+    text-transform: none;
+    margin-left: 3rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.toolbar-text:link {
+    text-decoration: none;
+}
+.toolbar-text:visited { text-decoration: none; }
+.toolbar-text:hover { text-decoration: none; }
+.toolbar-text:active { text-decoration: none; }
+
+@media screen and (max-width: 700px) {
+    .toolbar-text {
+        text-transform: none;
+        margin-left: 1rem;
+        font-size: 3.8vw; 
+        font-weight: bolder;
+    }
+}
