@@ -1,0 +1,19 @@
+.image-container {
+    // box-shadow: 5px 5px #725f55;
+    border-radius: 5px;
+    // width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    margin: 0 auto;
+    // max-width: 100%;
+    max-height: 400px;
+}
+
+.caption {
+    font-size: smaller;
+    margin: 2px auto;
+}

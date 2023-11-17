@@ -1,0 +1,305 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Alexandria', sans-serif;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.w-100 {
+    width:100%;
+}
+.w-50 {
+    width:50%;
+}
+
+.button{
+    text-transform: none;
+    --background: #5D4141
+}
+
+.container-header {
+    height: 150px;
+    padding-bottom: 2rem;
+}
+
+.container-header-title{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.text-header-title{
+    width: 100%;
+    font-weight: bolder;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // align-items: flex-end;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.page-container{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.main-page{
+    margin-top: 0;
+    padding-top: 0.5rem;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1300px;
+}
+
+// CSS Colors
+
+
+.color-theme-dark {
+    color:#0D0221
+}
+
+.background-color-theme-dark {
+    background-color: #0D0221
+}
+
+.color-theme-1 {
+    color:#2274A5
+}
+.background-color-theme-1 {
+    background-color: #2274A5;
+}
+
+.color-theme-2 {
+    color: #E7DFC6;
+}
+.background-color-theme-2 {
+    background-color: #E7DFC6;
+}
+
+.color-theme-3 {
+    color: #816C61;
+}
+.background-color-theme-3 {
+    background-color: #816C61;
+}
+
+.color-theme-white {
+    color: #E9F1F7;
+}
+.background-color-theme-white {
+    background-color: #E9F1F7;
+}
+
+
+.color-theme-black {
+    color: #131B23;
+}
+.background-color-theme-black {
+    background-color: #131B23;
+}
+
+
+.section{
+    width: 80%;
+    margin: 0 auto;
+    // border-color: white;
+    // border-style: solid;
+}
+.container-header-text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.section-row{
+    width:100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subsection{
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.subsection-header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-text {
+    margin-top: 4rem;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.video {
+    width: 450;
+    height: 253;
+    align-content: center;
+}
+.subsection-text{
+    text-transform: none;
+}
+.video-title{
+    font-weight: bolder;
+    text-align: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.test-border{
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+    .main-page{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-page {
+        max-width: 100%;
+        width: 100%
+    }
+
+    .section{
+        width: 100%;
+    }
+    .section-row{
+        display: block;
+    }
+    .subsection {
+        margin: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container-header{
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom:1rem;
+    }
+
+    .container-header-title{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .main-page{
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        min-height: 100%;
+    }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    .section{
+        width: 100%;
+    }
+    .video {
+        width: 200px;
+        height: 112px;
+    }
+}
+
+.button {
+  color: var(--ion-color-secondary-contrast);
+  background-color: var(--ion-color-secondary);
+  border-radius: 15px;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+}
